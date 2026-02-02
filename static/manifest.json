@@ -1,4 +1,36 @@
 {
+  "assets/webfonts/Monocraft.ttf": {
+    "file": "assets/Monocraft.262e3182.ttf",
+    "src": "assets/webfonts/Monocraft.ttf"
+  },
+  "assets/webfonts/Monocraft-Italic.ttf": {
+    "file": "assets/Monocraft-Italic.bb798676.ttf",
+    "src": "assets/webfonts/Monocraft-Italic.ttf"
+  },
+  "assets/webfonts/Monocraft-Bold.ttf": {
+    "file": "assets/Monocraft-Bold.d5b840fa.ttf",
+    "src": "assets/webfonts/Monocraft-Bold.ttf"
+  },
+  "assets/webfonts/Monocraft-Bold-Italic.ttf": {
+    "file": "assets/Monocraft-Bold-Italic.ed2340df.ttf",
+    "src": "assets/webfonts/Monocraft-Bold-Italic.ttf"
+  },
+  "assets/webfonts/Monocraft.otf": {
+    "file": "assets/Monocraft.578daa11.otf",
+    "src": "assets/webfonts/Monocraft.otf"
+  },
+  "assets/webfonts/Monocraft-Bold.otf": {
+    "file": "assets/Monocraft-Bold.9bd05352.otf",
+    "src": "assets/webfonts/Monocraft-Bold.otf"
+  },
+  "assets/webfonts/Monocraft-Bold-Italic.otf": {
+    "file": "assets/Monocraft-Bold-Italic.66948691.otf",
+    "src": "assets/webfonts/Monocraft-Bold-Italic.otf"
+  },
+  "assets/webfonts/Monocraft-Italic.otf": {
+    "file": "assets/Monocraft-Italic.5e28bd09.otf",
+    "src": "assets/webfonts/Monocraft-Italic.otf"
+  },
   "assets/js/index.js": {
     "file": "assets/index.b6be5691.js",
     "src": "assets/js/index.js",
@@ -144,7 +176,7 @@
     ]
   },
   "assets/scss/main.scss": {
-    "file": "assets/main.e9ec7884.css",
+    "file": "assets/main.d30176b8.css",
     "src": "assets/scss/main.scss",
     "isEntry": true
   }

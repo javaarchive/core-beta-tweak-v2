@@ -14,10 +14,10 @@
   box-shadow: 0 0 15px var(--bs-secondary);
 
   &.challenge-solved {
-    background-color: #29c830;
+    background-color: var(--bs-success) !important;
 
     &:hover {
-      background-color: #37d63e;
+      background-color: var(--bs-success) !important;
     }
   }
 }
@@ -31,10 +31,10 @@
   }
 
   &.challenge-solved {
-    background-color: #29c830;
+    background-color: var(--bs-success) !important;
 
     &:hover {
-      background-color: #37d63e;
+      background-color: var(--bs-success) !important;
     }
   }
 }
