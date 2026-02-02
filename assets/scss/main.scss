@@ -1,21 +1,22 @@
-@use "bootstrap/scss/bootstrap" as * with (
-  $info: #5c728f
-);
+// https://github.com/thomaspark/bootswatch/issues/1202
+@import "node_modules/bootswatch/dist/vapor/variables";
+@import "bootstrap/scss/bootstrap";
+@import "node_modules/bootswatch/dist/vapor/bootswatch";
 
-@use "includes/components/table";
-@use "includes/components/jumbotron";
-@use "includes/components/challenge";
-@use "includes/components/sticky-footer";
-@use "includes/components/graphs";
+@import "includes/components/table";
+@import "includes/components/jumbotron";
+@import "includes/components/challenge";
+@import "includes/components/sticky-footer";
+@import "includes/components/graphs";
 
-@use "includes/utils/fonts";
-@use "includes/utils/opacity";
-@use "includes/utils/min-height";
-@use "includes/utils/cursors";
-@use "includes/utils/lolight";
+@import "includes/utils/fonts";
+@import "includes/utils/opacity";
+@import "includes/utils/min-height";
+@import "includes/utils/cursors";
+@import "includes/utils/lolight";
 
-@use "includes/icons/award-icons";
-@use "includes/icons/flag-icons";
+@import "includes/icons/award-icons";
+@import "includes/icons/flag-icons";
 
 h1,
 h2 {
@@ -52,4 +53,8 @@ select {
 .form-select {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e");
   background-size: 8px 10px;
+}
+
+span[data-time] {
+  color: white;
 }

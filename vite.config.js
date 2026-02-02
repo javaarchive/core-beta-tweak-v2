@@ -31,12 +31,20 @@ export default defineConfig({
               src: "./node_modules/@fontsource/lato/files/**/*700*-normal*",
               dest: "static/webfonts",
             },
-            {
-              src: "./node_modules/@fontsource/raleway/files/**/*400*-normal*",
-              dest: "static/webfonts",
-            },
-            {
-              src: "./assets/img/**",
+                        {
+                          src: "./node_modules/@fontsource/raleway/files/**/*400*-normal*",
+                          dest: "static/webfonts",
+                        },
+                        {
+                          src: "./node_modules/@fontsource/press-start-2p/files/*.woff",
+                          dest: "static/webfonts",
+                        },
+                        {
+                          src: "./assets/webfonts/**/*",
+                          dest: "static/webfonts",
+                        },
+                        {
+                          src: "./assets/img/**",
               dest: "static/img",
             },
             {

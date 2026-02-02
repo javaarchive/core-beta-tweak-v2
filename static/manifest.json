@@ -1,4 +1,12 @@
 {
+  "assets/webfonts/Monocraft.ttf": {
+    "file": "assets/Monocraft.16b12093.ttf",
+    "src": "assets/webfonts/Monocraft.ttf"
+  },
+  "assets/webfonts/Monocraft.otf": {
+    "file": "assets/Monocraft.4f8ddb37.otf",
+    "src": "assets/webfonts/Monocraft.otf"
+  },
   "assets/js/index.js": {
     "file": "assets/index.b6be5691.js",
     "src": "assets/js/index.js",
@@ -144,7 +152,7 @@
     ]
   },
   "assets/scss/main.scss": {
-    "file": "assets/main.e9ec7884.css",
+    "file": "assets/main.2707f4da.css",
     "src": "assets/scss/main.scss",
     "isEntry": true
   }
