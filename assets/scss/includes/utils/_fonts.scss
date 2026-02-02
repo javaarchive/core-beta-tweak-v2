@@ -7,14 +7,55 @@
 
 // @include Raleway.fontFace($fontDir: "../webfonts");
 
+// Monocraft Regular (400)
 @font-face {
   font-family: "Monocraft";
   font-style: normal;
+  font-weight: 400;
   font-display: auto;
   src:
     local("Monocraft"),
     url("../webfonts/Monocraft.ttf") format("truetype"),
     url("../webfonts/Monocraft.otf") format("opentype");
+  unicode-range: U+000-5FF;
+}
+
+// Monocraft Italic
+@font-face {
+  font-family: "Monocraft";
+  font-style: italic;
+  font-weight: 400;
+  font-display: auto;
+  src:
+    local("Monocraft Italic"),
+    url("../webfonts/Monocraft-Italic.ttf") format("truetype"),
+    url("../webfonts/Monocraft-Italic.otf") format("opentype");
+  unicode-range: U+000-5FF;
+}
+
+// Monocraft Bold (700)
+@font-face {
+  font-family: "Monocraft";
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src:
+    local("Monocraft Bold"),
+    url("../webfonts/Monocraft-Bold.ttf") format("truetype"),
+    url("../webfonts/Monocraft-Bold.otf") format("opentype");
+  unicode-range: U+000-5FF;
+}
+
+// Monocraft Bold Italic
+@font-face {
+  font-family: "Monocraft";
+  font-style: italic;
+  font-weight: 700;
+  font-display: auto;
+  src:
+    local("Monocraft Bold Italic"),
+    url("../webfonts/Monocraft-Bold-Italic.ttf") format("truetype"),
+    url("../webfonts/Monocraft-Bold-Italic.otf") format("opentype");
   unicode-range: U+000-5FF;
 }
 
